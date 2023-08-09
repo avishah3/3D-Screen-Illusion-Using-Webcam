@@ -1,4 +1,4 @@
-# Real-time 3D Illusion: Computer Vision & Perspective Projection with PyGame
+# Real-time 3D Screen Illusion: Computer Vision & Perspective Projection with PyGame
 Author: [Avi Shah](https://www.linkedin.com/in/-avishah/) (2023)
 
 Create a captivating 3D digital illusion using computer vision techniques and perspective projection. This project utilizes Python, Pygame, OpenCV, MediaPipe, and your webcam to simulate a 3D space in 2D, providing an immersive visual experience that responds to the user's movement in real-time.
