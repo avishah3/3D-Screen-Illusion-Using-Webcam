@@ -7,8 +7,8 @@ Create a captivating 3D digital illusion using computer vision techniques and pe
 https://github.com/avishah3/3D-Screen-Illusion/assets/115107522/1c21f686-8c66-4c99-ac25-36731cb316c6
 
 ## How it Works
-* The main script, screen_effect.py, calls track_eyes.py to begin webcam recording and creates a new PyGame window. 
-* The track_eyes.py script employs the MediaPipe and OpenCV library to create a face mesh and updates eye location data in real-time.
+* The main script, screen_effect.py, calls track_eyes.py to begin webcam recording and creates a new PyGame window
+* The track_eyes.py script employs the MediaPipe and OpenCV library to create a face mesh and updates eye location data in real-time
 * screen_effect.py utilizes rectangles.py to create thousands of rectangles at different z locations (this creates the infinite tunnel)
 * screen_effect.py utilizes the graphics.py script to create multiple image planes at different z locations
 * rectangles.py and graphics.py have similar .draw() functions that renders a single object based on its location and the current eye location
@@ -16,7 +16,7 @@ https://github.com/avishah3/3D-Screen-Illusion/assets/115107522/1c21f686-8c66-4c
 * screen_effect.py loops through all the rectangles and graphics and calls their draw functions
 
 ## Getting Started
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine
 2. Install the required libraries in requirements.txt
 3. Run screen_effect.py and customize to your preference
 
