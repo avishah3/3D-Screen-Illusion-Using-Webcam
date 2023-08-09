@@ -34,4 +34,3 @@ class Rectangle3D:
         width = 40*self.cf
         color = (0*self.cf, 50*self.cf, 248*self.cf)
         pygame.draw.rect(screen, color, rect, width=int(width))
-
